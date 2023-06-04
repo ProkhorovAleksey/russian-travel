@@ -1,0 +1,6 @@
+.place__text {
+    margin: 0;
+    grid-area: place__text;
+    text-align: start;
+    align-self: start;
+}
