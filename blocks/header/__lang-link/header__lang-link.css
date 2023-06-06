@@ -6,8 +6,9 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    transition: text-decoration .3s linear;
+    opacity: 1;
+    transition: all .3s linear;
 }
 .header__lang-link:hover {
-    text-decoration: underline;
+    opacity: .5;
 }
