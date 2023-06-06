@@ -4,3 +4,9 @@
     text-align: start;
     align-self: end;
 }
+
+@media screen and (max-width: 1001px) {
+    .place__website {
+        padding: 0 16px;
+    }
+}

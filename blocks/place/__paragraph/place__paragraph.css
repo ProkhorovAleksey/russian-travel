@@ -5,15 +5,24 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-    max-width: 484px;
 }
 .place__paragraph:last-child {
     padding-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1001px) {
     .place__paragraph {
         font-size: 16px;
         padding: 0 0 25px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .place__paragraph {
+        padding: 0 16px 25px;
+    }
+
+    .place__paragraph:last-child {
+        padding-bottom: 0;
     }
 }
