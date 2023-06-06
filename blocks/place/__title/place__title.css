@@ -1,7 +1,6 @@
 .place__title {
-    grid-area: place__title;
+    grid-area: title;
     text-align: start;
-    align-self: center;
     font-size: 72px;
     line-height: 76px;
     font-weight: 900;

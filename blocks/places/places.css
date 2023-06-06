@@ -4,3 +4,9 @@
     display: grid;
     gap: 80px;
 }
+
+@media screen and (max-width: 1024px) {
+    .places {
+        padding: 0 48px 92px;
+    }
+}
